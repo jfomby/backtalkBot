@@ -4,7 +4,7 @@ module.exports = function(req, res, next) {
   if (userName === "neil") {
     botPayload.text = "Neil, slackBot told me you're his favorite.";
   } else if (userName === "garth") {
-    botPayload.text = "WARNING: Garth is speaking. Everyone keep calm and it will all be over soon.";
+    botPayload.text = "I'm back!!!! WARNING: Garth is speaking. Everyone keep calm and it will all be over soon.";
   }
 
   var names = ["neil", "garth"];
